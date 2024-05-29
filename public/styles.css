@@ -1,0 +1,92 @@
+header {
+    background: black;
+    color: #fff;  /* this id for the text color */
+    /*padding: 10px 0;*/
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 3px solid #FED766;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.Name {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+.profilePic{
+    vertical-align: middle;
+    max-height: 50px;
+    max-width: 60px;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-item {
+    margin-left: 1rem;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent; /* Transparent border is used here, so that we can change its color when it is hovered over */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+.nav-link:hover { 
+    
+    border-color:#FED766;
+}
+
+.TwoColumns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;  
+}
+
+.column1 {
+    width: 48%;
+    text-align:center;
+}
+.column2 {
+    width: 48%;
+    margin-top: 6rem;
+    text-align:center;
+    padding: 20px;
+    margin-bottom: 3rem;
+}
+.column2 p{
+    margin-top: 2rem;
+}
+
+#contact{
+    text-align: center;
+    border: 3px solid #FED766;
+    padding: 0px;
+    margin-top: 2rem;
+}
+
+#contact h1{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+#contact a{
+    color:#FED766;
+}
+#contact p{
+    margin-bottom: 2rem;
+}
