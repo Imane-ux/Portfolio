@@ -101,6 +101,7 @@ body {
     height:100vh;
     display:flex;
     justify-content: center;
+    margin-top: 250px;
 
     align-items: flex-start;
   }
@@ -117,12 +118,12 @@ body {
       height:100%;
   }
   .pka{
-    width:250px;
+    width:150px;
     animation:rotate-img 3s linear infinite;
   }
   .cube div{
-    width:50px;
-    height:50px;
+    width:45px;
+    height:45px;
     position:absolute;
     animation:gl 2s infinite;
     border-radius:20px;
@@ -130,19 +131,19 @@ body {
   }
   .one{
     background:#4285f4;
-    transform: rotatey(0deg) translateZ(200px) rotateY(0deg);
+    transform: rotatey(0deg) translateZ(120px) rotateY(0deg);
   }
   .two{
     background:#ea4335;
-    transform: rotatey(90deg) translateZ(200px) rotateY(0deg);
+    transform: rotatey(90deg) translateZ(120px) rotateY(0deg);
   }
   .three{
     background:#fbbc04;
-    transform: rotatey(-90deg) translateZ(200px) rotateY(0deg);
+    transform: rotatey(-90deg) translateZ(120px) rotateY(0deg);
   }
   .four{
     background:#34a853;
-    transform: translateZ(-200px) rotateY(0deg);
+    transform: translateZ(-120px) rotateY(0deg);
   }
   
   
@@ -214,6 +215,9 @@ body {
     background-color: transparent;
     color: white;
     transform: rotateY(180deg);
+    width: 130%; /* Adjust width as needed */
+     /* Add padding for content spacing */
+
   }
 
   .egg-container {
@@ -223,11 +227,11 @@ body {
 }
 
 .top-left {
-    top: 185px;
+    top: 280px;
     left: 100px;
 }
 .top-right {
-  top: 185px;
+  top: 280px;
   right: 100px;
 }
 
@@ -239,6 +243,7 @@ body {
 .bottom-right{
   bottom: -250px;
   right:100px ;
+  transform: translateX(-150%);
 }
 
 
